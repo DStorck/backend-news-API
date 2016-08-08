@@ -1,8 +1,12 @@
 class ArticlesController < ApplicationController
 
   def by_topic
-    @articles = GuardianAPIWrapper.search(params[:topic])
-    @test = "are we working?"
+    @articles = GuardianAPIWrapper.section(params[:topic])
+    render json: @articles
+  end
+
+  def by_keyword
+    @articles = GuardianAPIWrapper.search(params[:keyword])
     render json: @articles
   end
 

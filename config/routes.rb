@@ -1,3 +1,4 @@
 Rails.application.routes.draw do
-  get '/:topic' => 'articles#by_topic'
+  get '/section/:topic' => 'articles#by_topic'
+  get '/:keyword'       => 'articles#by_keyword'
 end
