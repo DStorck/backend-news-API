@@ -1,13 +1,13 @@
 class Article < ApplicationRecord
 
-  def create_article(response)
+  def self.create_article(response)
     article = Article.new
-    event.title = response["title"]
-    event.uid = response["id"]
-    event.url = response["webUrl"]
+    article.title = response["webTitle"]
+    article.url = response["webUrl"]
+    article.guardian_id = response['id']
 
-    if event.save
-      return event
+    if article.save
+      return article
     else
       return nil
     end
