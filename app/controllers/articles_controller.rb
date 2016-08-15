@@ -1,4 +1,4 @@
-require "#{Rails.root}/lib/guadian_api_wrapper"
+require "#{Rails.root}/lib/guardian_api_wrapper"
 
 class ArticlesController < ApplicationController
 
