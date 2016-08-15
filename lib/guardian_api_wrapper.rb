@@ -3,7 +3,6 @@ require "httparty"
 module GuardianAPIWrapper
 API_KEY = ENV["GUARDIAN_API_KEY"]
 BASE_URL = "http://content.guardianapis.com/search?api-key=#{API_KEY}"
-# BASE_URL = "http://content.guardianapis.com/search?section=world&api-key=#{API_KEY}"
 
   def self.section(section)
     @articles = []
