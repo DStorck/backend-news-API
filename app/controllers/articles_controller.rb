@@ -1,3 +1,5 @@
+require "#{Rails.root}/lib/guadian_api_wrapper"
+
 class ArticlesController < ApplicationController
 
   def by_topic
