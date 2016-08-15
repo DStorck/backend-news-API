@@ -10,4 +10,8 @@ class ArticlesController < ApplicationController
     render json: @articles
   end
 
+  def welcome
+    render json: "Welcome to the backend."
+  end
+
 end
