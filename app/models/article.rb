@@ -12,4 +12,13 @@ class Article < ApplicationRecord
       return nil
     end
   end
+
+  def make_article_instances(json_response)
+    @articles = []
+    json_response['response']['results'].each do |article|
+        @articles.push Article.create_article(article)
+    end
+    @articles
+  end
+
 end
