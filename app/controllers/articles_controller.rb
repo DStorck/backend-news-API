@@ -34,26 +34,11 @@ class ArticlesController < ApplicationController
 
   protected
 
-  # def authenticate_request
-  #   @mobile_token = AuthorizeApiRequest.call(request.headers).result
-  #   render json: @mobile_token
-  #   # render json: { error: 'Not Authorized' }, status: 401 unless @mobile_token
-  # end
-
   def authenticate
     unless ENV["AUTH_TOKEN"] == request.headers["X-backend-news-token"]
-      # render json: ENV["TEST"]
-    # render json: request.headers
     render json: "You must provide a valid authenticity token to access this site.", status: 401
 
     end
   end
 
 end
-
-
-  #real
-  # def by_topic
-  #   @articles = GuardianAPIWrapper.section(params[:topic])
-  #   render json: @articles
-  # end

@@ -1,13 +1,6 @@
 require 'test_helper'
 
 class ArticlesControllerTest < ActionDispatch::IntegrationTest
-  # setup do
-  #   @params = {
-  #     keyword: "food",
-  #     page: 3,
-  #     topic: "world"
-  #   }
-  # end
 
   test "should get index" do
     get "/"
@@ -15,9 +8,12 @@ class ArticlesControllerTest < ActionDispatch::IntegrationTest
   end
 
   test "should be able to search a keyword" do
-    get "/:keyword", params: {keyword: "food"}
-    assert_response :success
+    VCR.use_cassette("art-control/article_controller") do
+      get "/food", headers: {"X-backend-news-token": ENV["AUTH_TOKEN"]}
+      assert_response :success
+    end
   end
+
 
 end
 
