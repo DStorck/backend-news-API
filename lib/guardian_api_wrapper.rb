@@ -29,15 +29,6 @@ BASE_URL = "http://content.guardianapis.com/search?order-by=newest&api-key=#{API
     return initial_response
   end
 
-
-
-
-
-
-
-
-
-
 end
 
 

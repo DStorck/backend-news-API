@@ -22,13 +22,14 @@ gem 'active_model_serializers'
 
 group :development, :test do
   # Call 'byebug' anywhere in the code to stop execution and get a debugger console
-  gem 'byebug', platform: :mri
+  gem 'pry-byebug', platform: :mri
   gem 'dotenv-rails'
   gem 'sqlite3'
   gem "dotenv-rails"
   gem 'minitest-vcr'
   gem 'minitest-reporters'
   gem 'webmock'
+
 end
 
 group :development do

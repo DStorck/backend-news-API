@@ -23,8 +23,11 @@ class GuardianApiWrapperTest < ActiveSupport::TestCase
 
     it "can ask for a specific page of results", :vcr do
       @seattle2 = GuardianAPIWrapper.search_by_page("seattle", "3")
-      @page = @seattle2["response"]["currentPage"]
-      assert_equal 3, @page
+      @world2 = GuardianAPIWrapper.section_by_page("world", "5")
+      @seattle_page = @seattle2["response"]["currentPage"]
+      @world_page = @world2["response"]["currentPage"]
+      assert_equal 3, @seattle_page
+      assert_equal 5, @world_page
     end
 
 
