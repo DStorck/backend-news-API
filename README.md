@@ -15,16 +15,16 @@ Currently using [Guardian API](http://open-platform.theguardian.com/) to gather 
 
 ## Search by keyword
 Search requests are GET requests to the `/:keyword/:page` endpoint with the
-following parameters(:page is optional)
+following parameters(:page is optional):
 
 | parameter   | data type | description |
 |-------------|----------:|-------------|
-| `keyword`   | string    | Search keyword |
+| `keyword`   | string    | Search by keyword |
 | `page`      | integer   | Page of data returned. First response is page 1 by default. |
 
 ## Search by section
 Section requests are GET requests to the `/section/:topic/:page` endpoint with the
-following parameters:
+following parameters(:page is optional):
 
 | parameter   | data type | description |
 |-------------|----------:|-------------|
