@@ -141,6 +141,12 @@
         null,
         null,
         null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
         1,
         null,
         1,
@@ -177,8 +183,32 @@
         0,
         0,
         0
+      ],
+      "/Users/deirdrestorck/C5/capstone/backend-news-API/lib/ny_times_api_wrapper.rb": [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0
       ]
     },
-    "timestamp": 1471908110
+    "timestamp": 1472249612
   }
 }

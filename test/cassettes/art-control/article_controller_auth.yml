@@ -1,0 +1,76 @@
+---
+http_interactions:
+- request:
+    method: get
+    uri: http://content.guardianapis.com/search?api-key=b3c90be6-d0b9-4a5f-af65-4736cc73ef40&order-by=newest&page=4&section=world
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers:
+      Accept-Encoding:
+      - gzip;q=1.0,deflate;q=0.6,identity;q=0.3
+      Accept:
+      - "*/*"
+      User-Agent:
+      - Ruby
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      Access-Control-Allow-Credentials:
+      - 'true'
+      Access-Control-Allow-Origin:
+      - "*"
+      Cache-Control:
+      - max-age=0
+      Content-Type:
+      - application/json; charset=UTF-8
+      Date:
+      - Fri, 26 Aug 2016 22:14:13 GMT
+      Server:
+      - spray-can/1.3.3
+      Via:
+      - kong/0.7.0
+      X-Kong-Proxy-Latency:
+      - '87'
+      X-Kong-Upstream-Latency:
+      - '72'
+      X-Ratelimit-Limit-Day:
+      - '5000'
+      X-Ratelimit-Limit-Minute:
+      - '720'
+      X-Ratelimit-Remaining-Day:
+      - '4958'
+      X-Ratelimit-Remaining-Minute:
+      - '719'
+      Content-Length:
+      - '5355'
+      Connection:
+      - keep-alive
+    body:
+      encoding: UTF-8
+      string: '{"response":{"status":"ok","userTier":"developer","total":166292,"startIndex":31,"pageSize":10,"currentPage":4,"pages":16630,"orderBy":"newest","results":[{"id":"world/2016/aug/25/clinton-foundation-bill-hillary-us-election-state-department","type":"article","sectionId":"world","sectionName":"World
+        news","webPublicationDate":"2016-08-25T13:52:07Z","webTitle":"What is the
+        Clinton Foundation? And are the latest rumors ''smoke without fire''?","webUrl":"https://www.theguardian.com/world/2016/aug/25/clinton-foundation-bill-hillary-us-election-state-department","apiUrl":"https://content.guardianapis.com/world/2016/aug/25/clinton-foundation-bill-hillary-us-election-state-department","isHosted":false},{"id":"world/2016/aug/25/msf-mediterranean-bourbon-argos-armed-raid-libya-coast","type":"article","sectionId":"world","sectionName":"World
+        news","webPublicationDate":"2016-08-25T12:46:10Z","webTitle":"Mediterranean
+        rescue boat hit in armed raid off Libyan coast","webUrl":"https://www.theguardian.com/world/2016/aug/25/msf-mediterranean-bourbon-argos-armed-raid-libya-coast","apiUrl":"https://content.guardianapis.com/world/2016/aug/25/msf-mediterranean-bourbon-argos-armed-raid-libya-coast","isHosted":false},{"id":"world/2016/aug/25/tanzania-ivory-tusk-dogs","type":"article","sectionId":"world","sectionName":"World
+        news","webPublicationDate":"2016-08-25T12:00:10Z","webTitle":"Dogs in Tanzania
+        sniff out illegal ivory tusks in new anti-poaching effort","webUrl":"https://www.theguardian.com/world/2016/aug/25/tanzania-ivory-tusk-dogs","apiUrl":"https://content.guardianapis.com/world/2016/aug/25/tanzania-ivory-tusk-dogs","isHosted":false},{"id":"world/2016/aug/25/eu-and-turkey-restart-talks-over-migrant-pact","type":"article","sectionId":"world","sectionName":"World
+        news","webPublicationDate":"2016-08-25T11:22:34Z","webTitle":"EU and Turkey
+        restart talks over migrant pact","webUrl":"https://www.theguardian.com/world/2016/aug/25/eu-and-turkey-restart-talks-over-migrant-pact","apiUrl":"https://content.guardianapis.com/world/2016/aug/25/eu-and-turkey-restart-talks-over-migrant-pact","isHosted":false},{"id":"world/2016/aug/25/iranian-students-defer-us-visa-delays","type":"article","sectionId":"world","sectionName":"World
+        news","webPublicationDate":"2016-08-25T10:00:08Z","webTitle":"Iranian students
+        put life on hold due to extensive delays in US visa processing","webUrl":"https://www.theguardian.com/world/2016/aug/25/iranian-students-defer-us-visa-delays","apiUrl":"https://content.guardianapis.com/world/2016/aug/25/iranian-students-defer-us-visa-delays","isHosted":false},{"id":"world/2016/aug/25/net-migration-to-uk-fell-to-327000-in-past-year-figures-show","type":"article","sectionId":"world","sectionName":"World
+        news","webPublicationDate":"2016-08-25T09:19:13Z","webTitle":"UK passport
+        applications from EU nationals rose 14% before referendum","webUrl":"https://www.theguardian.com/world/2016/aug/25/net-migration-to-uk-fell-to-327000-in-past-year-figures-show","apiUrl":"https://content.guardianapis.com/world/2016/aug/25/net-migration-to-uk-fell-to-327000-in-past-year-figures-show","isHosted":false},{"id":"world/2016/aug/24/colombia-government-farc-rebels-peace-deal-52-year-war","type":"article","sectionId":"world","sectionName":"World
+        news","webPublicationDate":"2016-08-25T07:55:26Z","webTitle":"Farc peace deal:
+        rebels and Colombian government sign accord to end war","webUrl":"https://www.theguardian.com/world/2016/aug/24/colombia-government-farc-rebels-peace-deal-52-year-war","apiUrl":"https://content.guardianapis.com/world/2016/aug/24/colombia-government-farc-rebels-peace-deal-52-year-war","isHosted":false},{"id":"world/2016/aug/24/french-burkini-ban-row-escalates-clothing-incident-woman-police-nice-beach","type":"article","sectionId":"world","sectionName":"World
+        news","webPublicationDate":"2016-08-25T06:16:59Z","webTitle":"French burkini
+        ban row escalates after clothing incident at Nice beach","webUrl":"https://www.theguardian.com/world/2016/aug/24/french-burkini-ban-row-escalates-clothing-incident-woman-police-nice-beach","apiUrl":"https://content.guardianapis.com/world/2016/aug/24/french-burkini-ban-row-escalates-clothing-incident-woman-police-nice-beach","isHosted":false},{"id":"world/2016/aug/24/italy-earthquake-rescue-teams-dig-through-rubble-as-death-toll-rises","type":"article","sectionId":"world","sectionName":"World
+        news","webPublicationDate":"2016-08-25T06:02:16Z","webTitle":"Italy in shock
+        after Amatrice earthquake: ''This used to be my home''","webUrl":"https://www.theguardian.com/world/2016/aug/24/italy-earthquake-rescue-teams-dig-through-rubble-as-death-toll-rises","apiUrl":"https://content.guardianapis.com/world/2016/aug/24/italy-earthquake-rescue-teams-dig-through-rubble-as-death-toll-rises","isHosted":false},{"id":"world/2016/aug/25/what-am-i-waiting-for-child-refugees-trapped-in-calais-appeal-to-mps","type":"article","sectionId":"world","sectionName":"World
+        news","webPublicationDate":"2016-08-25T06:00:04Z","webTitle":"''What am I
+        waiting for?'': child refugees trapped in Calais appeal to MPs","webUrl":"https://www.theguardian.com/world/2016/aug/25/what-am-i-waiting-for-child-refugees-trapped-in-calais-appeal-to-mps","apiUrl":"https://content.guardianapis.com/world/2016/aug/25/what-am-i-waiting-for-child-refugees-trapped-in-calais-appeal-to-mps","isHosted":false}]}}'
+    http_version: 
+  recorded_at: Fri, 26 Aug 2016 22:13:12 GMT
+recorded_with: VCR 3.0.3

@@ -1,7 +1,7 @@
 require "#{Rails.root}/lib/guardian_api_wrapper"
 
 class ArticlesController < ApplicationController
-  # before_action :authenticate, except: [ :welcome ]
+  before_action :authenticate, except: [ :welcome ]
 
   def by_topic
     @json_articles = GuardianAPIWrapper.section(params[:topic])
