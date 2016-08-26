@@ -31,6 +31,12 @@ class ArticlesController < ApplicationController
     render json: "Welcome to the backend."
   end
 
+  # want to add this in the future
+  # def times
+  #   @response = NYTimesAPIWrapper.times_search("soccer")
+  #   render json: @response
+  # end
+
 
   protected
 

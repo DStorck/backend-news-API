@@ -1,0 +1,254 @@
+---
+http_interactions:
+- request:
+    method: get
+    uri: http://content.guardianapis.com/search?api-key=b3c90be6-d0b9-4a5f-af65-4736cc73ef40&order-by=newest&section=world
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers:
+      Accept-Encoding:
+      - gzip;q=1.0,deflate;q=0.6,identity;q=0.3
+      Accept:
+      - "*/*"
+      User-Agent:
+      - Ruby
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      Access-Control-Allow-Credentials:
+      - 'true'
+      Access-Control-Allow-Origin:
+      - "*"
+      Cache-Control:
+      - max-age=0
+      Content-Type:
+      - application/json; charset=UTF-8
+      Date:
+      - Mon, 22 Aug 2016 23:19:09 GMT
+      Server:
+      - spray-can/1.3.3
+      Surrogate-Control:
+      - max-age=1
+      Via:
+      - kong/0.7.0
+      X-Kong-Proxy-Latency:
+      - '27'
+      X-Kong-Upstream-Latency:
+      - '52'
+      X-Ratelimit-Limit-Day:
+      - '5000'
+      X-Ratelimit-Limit-Minute:
+      - '720'
+      X-Ratelimit-Remaining-Day:
+      - '4856'
+      X-Ratelimit-Remaining-Minute:
+      - '715'
+      Content-Length:
+      - '5442'
+      Connection:
+      - keep-alive
+    body:
+      encoding: UTF-8
+      string: '{"response":{"status":"ok","userTier":"developer","total":166209,"startIndex":1,"pageSize":10,"currentPage":1,"pages":16621,"orderBy":"newest","results":[{"id":"world/2016/aug/22/indigenous-canadians-children-sixties-scoop-court","type":"article","sectionId":"world","sectionName":"World
+        news","webPublicationDate":"2016-08-22T21:21:02Z","webTitle":"Indigenous Canadians
+        taken from homes as children get day in court","webUrl":"https://www.theguardian.com/world/2016/aug/22/indigenous-canadians-children-sixties-scoop-court","apiUrl":"https://content.guardianapis.com/world/2016/aug/22/indigenous-canadians-children-sixties-scoop-court","isHosted":false},{"id":"world/2016/aug/22/finland-us-russia-military-security","type":"article","sectionId":"world","sectionName":"World
+        news","webPublicationDate":"2016-08-22T19:21:37Z","webTitle":"Finland says
+        it is nearing security deal with US amid concerns over Russia","webUrl":"https://www.theguardian.com/world/2016/aug/22/finland-us-russia-military-security","apiUrl":"https://content.guardianapis.com/world/2016/aug/22/finland-us-russia-military-security","isHosted":false},{"id":"world/2016/aug/22/new-zealand-the-tonic-for-brits-seeking-to-escape-brexit-blues","type":"article","sectionId":"world","sectionName":"World
+        news","webPublicationDate":"2016-08-22T17:48:42Z","webTitle":"Like the UK
+        but better? Interest in New Zealand alternative soars after Brexit vote","webUrl":"https://www.theguardian.com/world/2016/aug/22/new-zealand-the-tonic-for-brits-seeking-to-escape-brexit-blues","apiUrl":"https://content.guardianapis.com/world/2016/aug/22/new-zealand-the-tonic-for-brits-seeking-to-escape-brexit-blues","isHosted":false},{"id":"world/2016/aug/22/france-isolation-units-islamic-extremist-prisoners-uk-paris-attacks","type":"article","sectionId":"world","sectionName":"World
+        news","webPublicationDate":"2016-08-22T16:28:05Z","webTitle":"France began
+        isolating Islamic extremists in jails after Paris attacks","webUrl":"https://www.theguardian.com/world/2016/aug/22/france-isolation-units-islamic-extremist-prisoners-uk-paris-attacks","apiUrl":"https://content.guardianapis.com/world/2016/aug/22/france-isolation-units-islamic-extremist-prisoners-uk-paris-attacks","isHosted":false},{"id":"world/2016/aug/22/what-is-it-really-like-to-live-in-new-zealand","type":"article","sectionId":"world","sectionName":"World
+        news","webPublicationDate":"2016-08-22T15:34:26Z","webTitle":"What is it really
+        like to live in New Zealand?","webUrl":"https://www.theguardian.com/world/2016/aug/22/what-is-it-really-like-to-live-in-new-zealand","apiUrl":"https://content.guardianapis.com/world/2016/aug/22/what-is-it-really-like-to-live-in-new-zealand","isHosted":false},{"id":"world/2016/aug/21/ventotene-summit-france-italy-germany-eu-brexit-vote","type":"article","sectionId":"world","sectionName":"World
+        news","webPublicationDate":"2016-08-22T14:29:55Z","webTitle":"Ventotene summit
+        to chart roadmap for EU''s response to Brexit vote","webUrl":"https://www.theguardian.com/world/2016/aug/21/ventotene-summit-france-italy-germany-eu-brexit-vote","apiUrl":"https://content.guardianapis.com/world/2016/aug/21/ventotene-summit-france-italy-germany-eu-brexit-vote","isHosted":false},{"id":"world/2016/aug/22/briton-killed-defusing-bomb-iraq-ramadi","type":"article","sectionId":"world","sectionName":"World
+        news","webPublicationDate":"2016-08-22T13:19:44Z","webTitle":"Briton is killed
+        defusing bomb in Iraqi city of Ramadi","webUrl":"https://www.theguardian.com/world/2016/aug/22/briton-killed-defusing-bomb-iraq-ramadi","apiUrl":"https://content.guardianapis.com/world/2016/aug/22/briton-killed-defusing-bomb-iraq-ramadi","isHosted":false},{"id":"world/2016/aug/22/ethiopian-olympic-medallist-feyisa-lilesa-seeks-asylum-after-marathon-protest-oromo-rio","type":"article","sectionId":"world","sectionName":"World
+        news","webPublicationDate":"2016-08-22T13:16:27Z","webTitle":"Ethiopian Olympic
+        medallist seeks asylum after marathon protest","webUrl":"https://www.theguardian.com/world/2016/aug/22/ethiopian-olympic-medallist-feyisa-lilesa-seeks-asylum-after-marathon-protest-oromo-rio","apiUrl":"https://content.guardianapis.com/world/2016/aug/22/ethiopian-olympic-medallist-feyisa-lilesa-seeks-asylum-after-marathon-protest-oromo-rio","isHosted":false},{"id":"world/2016/aug/22/islamic-extremist-pleads-guilty-at-icc-to-timbuktu-cultural-destruction","type":"article","sectionId":"world","sectionName":"World
+        news","webPublicationDate":"2016-08-22T12:32:51Z","webTitle":"''I am sorry'':
+        Islamist apologises for destroying Timbuktu mausoleums","webUrl":"https://www.theguardian.com/world/2016/aug/22/islamic-extremist-pleads-guilty-at-icc-to-timbuktu-cultural-destruction","apiUrl":"https://content.guardianapis.com/world/2016/aug/22/islamic-extremist-pleads-guilty-at-icc-to-timbuktu-cultural-destruction","isHosted":false},{"id":"world/2016/aug/22/why-do-they-target-us-yemeni-civilians-pay-the-price-of-escalating-crisis","type":"article","sectionId":"world","sectionName":"World
+        news","webPublicationDate":"2016-08-22T12:04:14Z","webTitle":"''Why do they
+        target us?'' Yemeni civilians pay the price of escalating crisis","webUrl":"https://www.theguardian.com/world/2016/aug/22/why-do-they-target-us-yemeni-civilians-pay-the-price-of-escalating-crisis","apiUrl":"https://content.guardianapis.com/world/2016/aug/22/why-do-they-target-us-yemeni-civilians-pay-the-price-of-escalating-crisis","isHosted":false}]}}'
+    http_version: 
+  recorded_at: Mon, 22 Aug 2016 23:18:12 GMT
+- request:
+    method: get
+    uri: http://content.guardianapis.com/search?api-key=b3c90be6-d0b9-4a5f-af65-4736cc73ef40&order-by=newest&q=seattle
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers:
+      Accept-Encoding:
+      - gzip;q=1.0,deflate;q=0.6,identity;q=0.3
+      Accept:
+      - "*/*"
+      User-Agent:
+      - Ruby
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      Access-Control-Allow-Credentials:
+      - 'true'
+      Access-Control-Allow-Origin:
+      - "*"
+      Cache-Control:
+      - max-age=0
+      Content-Type:
+      - application/json; charset=UTF-8
+      Date:
+      - Mon, 22 Aug 2016 23:18:08 GMT
+      Server:
+      - spray-can/1.3.3
+      Surrogate-Control:
+      - max-age=1
+      Via:
+      - kong/0.7.0
+      X-Kong-Proxy-Latency:
+      - '26'
+      X-Kong-Upstream-Latency:
+      - '40'
+      X-Ratelimit-Limit-Day:
+      - '5000'
+      X-Ratelimit-Limit-Minute:
+      - '720'
+      X-Ratelimit-Remaining-Day:
+      - '4855'
+      X-Ratelimit-Remaining-Minute:
+      - '712'
+      Content-Length:
+      - '5441'
+      Connection:
+      - keep-alive
+    body:
+      encoding: ASCII-8BIT
+      string: !binary |-
+        eyJyZXNwb25zZSI6eyJzdGF0dXMiOiJvayIsInVzZXJUaWVyIjoiZGV2ZWxv
+        cGVyIiwidG90YWwiOjgzNDQsInN0YXJ0SW5kZXgiOjEsInBhZ2VTaXplIjox
+        MCwiY3VycmVudFBhZ2UiOjEsInBhZ2VzIjo4MzUsIm9yZGVyQnkiOiJuZXdl
+        c3QiLCJyZXN1bHRzIjpbeyJpZCI6ImZvb3RiYWxsL2Jsb2cvMjAxNi9hdWcv
+        MjIvc2VhdHRsZS10dXJuLXdlc3Rlcm4tY29uZmVyZW5jZS1wbGF5LW9mZi1y
+        YWNlLWludG8tYS1maWdodC10by10aGUtZGVhdGgiLCJ0eXBlIjoiYXJ0aWNs
+        ZSIsInNlY3Rpb25JZCI6ImZvb3RiYWxsIiwic2VjdGlvbk5hbWUiOiJGb290
+        YmFsbCIsIndlYlB1YmxpY2F0aW9uRGF0ZSI6IjIwMTYtMDgtMjJUMTE6NDM6
+        NDJaIiwid2ViVGl0bGUiOiJTZWF0dGxlIHR1cm4gV2VzdGVybiBDb25mZXJl
+        bmNlIHBsYXktb2ZmIHJhY2UgaW50byBhIGZpZ2h0IHRvIHRoZSBkZWF0aCIs
+        IndlYlVybCI6Imh0dHBzOi8vd3d3LnRoZWd1YXJkaWFuLmNvbS9mb290YmFs
+        bC9ibG9nLzIwMTYvYXVnLzIyL3NlYXR0bGUtdHVybi13ZXN0ZXJuLWNvbmZl
+        cmVuY2UtcGxheS1vZmYtcmFjZS1pbnRvLWEtZmlnaHQtdG8tdGhlLWRlYXRo
+        IiwiYXBpVXJsIjoiaHR0cHM6Ly9jb250ZW50Lmd1YXJkaWFuYXBpcy5jb20v
+        Zm9vdGJhbGwvYmxvZy8yMDE2L2F1Zy8yMi9zZWF0dGxlLXR1cm4td2VzdGVy
+        bi1jb25mZXJlbmNlLXBsYXktb2ZmLXJhY2UtaW50by1hLWZpZ2h0LXRvLXRo
+        ZS1kZWF0aCIsImlzSG9zdGVkIjpmYWxzZX0seyJpZCI6InRlY2hub2xvZ3kv
+        MjAxNi9hdWcvMjIvZ29vZ2xlLXgtc2VsZi1kcml2aW5nLWNhcnMiLCJ0eXBl
+        IjoiYXJ0aWNsZSIsInNlY3Rpb25JZCI6InRlY2hub2xvZ3kiLCJzZWN0aW9u
+        TmFtZSI6IlRlY2hub2xvZ3kiLCJ3ZWJQdWJsaWNhdGlvbkRhdGUiOiIyMDE2
+        LTA4LTIyVDA3OjQyOjU3WiIsIndlYlRpdGxlIjoiSWYgdGhlIGFnZSBvZiBz
+        ZWxmLWRyaXZpbmcgY2FycyBpcyB1cG9uIHVzLCB3aGF0J3Mga2VlcGluZyB0
+        aGVtIG9mZiB0aGUgcm9hZHM/Iiwid2ViVXJsIjoiaHR0cHM6Ly93d3cudGhl
+        Z3VhcmRpYW4uY29tL3RlY2hub2xvZ3kvMjAxNi9hdWcvMjIvZ29vZ2xlLXgt
+        c2VsZi1kcml2aW5nLWNhcnMiLCJhcGlVcmwiOiJodHRwczovL2NvbnRlbnQu
+        Z3VhcmRpYW5hcGlzLmNvbS90ZWNobm9sb2d5LzIwMTYvYXVnLzIyL2dvb2ds
+        ZS14LXNlbGYtZHJpdmluZy1jYXJzIiwiaXNIb3N0ZWQiOmZhbHNlfSx7Imlk
+        IjoidXMtbmV3cy8yMDE2L2F1Zy8yMS9sYXRpbm8taW1taWdyYW50cy11cy13
+        YXItb24tdGVycm9yLXN0dWR5IiwidHlwZSI6ImFydGljbGUiLCJzZWN0aW9u
+        SWQiOiJ1cy1uZXdzIiwic2VjdGlvbk5hbWUiOiJVUyBuZXdzIiwid2ViUHVi
+        bGljYXRpb25EYXRlIjoiMjAxNi0wOC0yMVQxMzowNjo1OFoiLCJ3ZWJUaXRs
+        ZSI6IkxhdGlubyBpbW1pZ3JhbnRzIGFyZSB1bm5vdGljZWQgY2FzdWFsdGll
+        cyBvZiBVUyAnd2FyIG9uIHRlcnJvcicg4oCTIHN0dWR5Iiwid2ViVXJsIjoi
+        aHR0cHM6Ly93d3cudGhlZ3VhcmRpYW4uY29tL3VzLW5ld3MvMjAxNi9hdWcv
+        MjEvbGF0aW5vLWltbWlncmFudHMtdXMtd2FyLW9uLXRlcnJvci1zdHVkeSIs
+        ImFwaVVybCI6Imh0dHBzOi8vY29udGVudC5ndWFyZGlhbmFwaXMuY29tL3Vz
+        LW5ld3MvMjAxNi9hdWcvMjEvbGF0aW5vLWltbWlncmFudHMtdXMtd2FyLW9u
+        LXRlcnJvci1zdHVkeSIsImlzSG9zdGVkIjpmYWxzZX0seyJpZCI6InR2LWFu
+        ZC1yYWRpby8yMDE2L2F1Zy8yMS90di1yaW8tb2x5bXBpY3MtYW4taG91ci10
+        by1zYXZlLXlvdXItbGlmZS1za2llcy1hYm92ZS1icml0YWluLWhlcm9lcy1o
+        ZWxtYW5kLXNvbWV0aGluZy1hYm91dC1yb21jb21zIiwidHlwZSI6ImFydGlj
+        bGUiLCJzZWN0aW9uSWQiOiJ0di1hbmQtcmFkaW8iLCJzZWN0aW9uTmFtZSI6
+        IlRlbGV2aXNpb24gJiByYWRpbyIsIndlYlB1YmxpY2F0aW9uRGF0ZSI6IjIw
+        MTYtMDgtMjFUMDY6MDA6MDlaIiwid2ViVGl0bGUiOiJUaGUgd2VlayBpbiBU
+        VjogUmlvIE9seW1waWNzOyBBbiBIb3VyIHRvIFNhdmUgWW91ciBMaWZlOyBT
+        a2llcyBBYm92ZSBCcml0YWluOyBIZXJvZXMgb2YgSGVsbWFuZCBhbmQgbW9y
+        ZSIsIndlYlVybCI6Imh0dHBzOi8vd3d3LnRoZWd1YXJkaWFuLmNvbS90di1h
+        bmQtcmFkaW8vMjAxNi9hdWcvMjEvdHYtcmlvLW9seW1waWNzLWFuLWhvdXIt
+        dG8tc2F2ZS15b3VyLWxpZmUtc2tpZXMtYWJvdmUtYnJpdGFpbi1oZXJvZXMt
+        aGVsbWFuZC1zb21ldGhpbmctYWJvdXQtcm9tY29tcyIsImFwaVVybCI6Imh0
+        dHBzOi8vY29udGVudC5ndWFyZGlhbmFwaXMuY29tL3R2LWFuZC1yYWRpby8y
+        MDE2L2F1Zy8yMS90di1yaW8tb2x5bXBpY3MtYW4taG91ci10by1zYXZlLXlv
+        dXItbGlmZS1za2llcy1hYm92ZS1icml0YWluLWhlcm9lcy1oZWxtYW5kLXNv
+        bWV0aGluZy1hYm91dC1yb21jb21zIiwiaXNIb3N0ZWQiOmZhbHNlfSx7Imlk
+        Ijoic3BvcnQvbGl2ZS8yMDE2L2F1Zy8yMC93b21lbnMtb2x5bXBpYy1iYXNr
+        ZXRiYWxsLWZpbmFsLXVzYS12LXNwYWluLWxpdmUiLCJ0eXBlIjoibGl2ZWJs
+        b2ciLCJzZWN0aW9uSWQiOiJzcG9ydCIsInNlY3Rpb25OYW1lIjoiU3BvcnQi
+        LCJ3ZWJQdWJsaWNhdGlvbkRhdGUiOiIyMDE2LTA4LTIwVDIwOjIxOjA1WiIs
+        IndlYlRpdGxlIjoiV29tZW4ncyBPbHltcGljIGJhc2tldGJhbGwgZmluYWw6
+        IFVTQSBiZWF0IFNwYWluIHRvIHdpbiBnb2xkIG1lZGFsIOKAkyBhcyBpdCBo
+        YXBwZW5lZCEiLCJ3ZWJVcmwiOiJodHRwczovL3d3dy50aGVndWFyZGlhbi5j
+        b20vc3BvcnQvbGl2ZS8yMDE2L2F1Zy8yMC93b21lbnMtb2x5bXBpYy1iYXNr
+        ZXRiYWxsLWZpbmFsLXVzYS12LXNwYWluLWxpdmUiLCJhcGlVcmwiOiJodHRw
+        czovL2NvbnRlbnQuZ3VhcmRpYW5hcGlzLmNvbS9zcG9ydC9saXZlLzIwMTYv
+        YXVnLzIwL3dvbWVucy1vbHltcGljLWJhc2tldGJhbGwtZmluYWwtdXNhLXYt
+        c3BhaW4tbGl2ZSIsImlzSG9zdGVkIjpmYWxzZX0seyJpZCI6InN1c3RhaW5h
+        YmxlLWJ1c2luZXNzLzIwMTYvYXVnLzIwL2dyZWVud2FzaGluZy1lbnZpcm9u
+        bWVudGFsaXNtLWxpZXMtY29tcGFuaWVzIiwidHlwZSI6ImFydGljbGUiLCJz
+        ZWN0aW9uSWQiOiJzdXN0YWluYWJsZS1idXNpbmVzcyIsInNlY3Rpb25OYW1l
+        IjoiR3VhcmRpYW4gU3VzdGFpbmFibGUgQnVzaW5lc3MiLCJ3ZWJQdWJsaWNh
+        dGlvbkRhdGUiOiIyMDE2LTA4LTIwVDE0OjAwOjA2WiIsIndlYlRpdGxlIjoi
+        VGhlIHRyb3VibGluZyBldm9sdXRpb24gb2YgY29ycG9yYXRlIGdyZWVud2Fz
+        aGluZyIsIndlYlVybCI6Imh0dHBzOi8vd3d3LnRoZWd1YXJkaWFuLmNvbS9z
+        dXN0YWluYWJsZS1idXNpbmVzcy8yMDE2L2F1Zy8yMC9ncmVlbndhc2hpbmct
+        ZW52aXJvbm1lbnRhbGlzbS1saWVzLWNvbXBhbmllcyIsImFwaVVybCI6Imh0
+        dHBzOi8vY29udGVudC5ndWFyZGlhbmFwaXMuY29tL3N1c3RhaW5hYmxlLWJ1
+        c2luZXNzLzIwMTYvYXVnLzIwL2dyZWVud2FzaGluZy1lbnZpcm9ubWVudGFs
+        aXNtLWxpZXMtY29tcGFuaWVzIiwiaXNIb3N0ZWQiOmZhbHNlfSx7ImlkIjoi
+        YXJ0YW5kZGVzaWduLzIwMTYvYXVnLzE5L25ha2VkLWRvbmFsZC10cnVtcC1z
+        dGF0dWUtc2F0aXJlLWFnZWlzdC1ib2R5LXNoYW1pbmciLCJ0eXBlIjoiYXJ0
+        aWNsZSIsInNlY3Rpb25JZCI6ImFydGFuZGRlc2lnbiIsInNlY3Rpb25OYW1l
+        IjoiQXJ0IGFuZCBkZXNpZ24iLCJ3ZWJQdWJsaWNhdGlvbkRhdGUiOiIyMDE2
+        LTA4LTE5VDIxOjA3OjE1WiIsIndlYlRpdGxlIjoiQWdlaXN0IGFuZCBib2R5
+        LXNoYW1pbmcgVHJ1bXAgc3RhdHVlIGZhbGxzIHNob3J0IGFzIGFydCBhbmQg
+        c2F0aXJlIiwid2ViVXJsIjoiaHR0cHM6Ly93d3cudGhlZ3VhcmRpYW4uY29t
+        L2FydGFuZGRlc2lnbi8yMDE2L2F1Zy8xOS9uYWtlZC1kb25hbGQtdHJ1bXAt
+        c3RhdHVlLXNhdGlyZS1hZ2Vpc3QtYm9keS1zaGFtaW5nIiwiYXBpVXJsIjoi
+        aHR0cHM6Ly9jb250ZW50Lmd1YXJkaWFuYXBpcy5jb20vYXJ0YW5kZGVzaWdu
+        LzIwMTYvYXVnLzE5L25ha2VkLWRvbmFsZC10cnVtcC1zdGF0dWUtc2F0aXJl
+        LWFnZWlzdC1ib2R5LXNoYW1pbmciLCJpc0hvc3RlZCI6ZmFsc2V9LHsiaWQi
+        OiJzcG9ydC8yMDE2L2F1Zy8xOS93aGF0LWhvcGVzLWRvLXlvdS1oYXZlLWZv
+        ci15b3VyLW5mbC10ZWFtLXRoaXMtc2Vhc29uIiwidHlwZSI6ImFydGljbGUi
+        LCJzZWN0aW9uSWQiOiJzcG9ydCIsInNlY3Rpb25OYW1lIjoiU3BvcnQiLCJ3
+        ZWJQdWJsaWNhdGlvbkRhdGUiOiIyMDE2LTA4LTE5VDE1OjQ0OjU3WiIsIndl
+        YlRpdGxlIjoiV2hhdCBob3BlcyBkbyB5b3UgaGF2ZSBmb3IgeW91ciBORkwg
+        dGVhbSB0aGlzIHNlYXNvbj8iLCJ3ZWJVcmwiOiJodHRwczovL3d3dy50aGVn
+        dWFyZGlhbi5jb20vc3BvcnQvMjAxNi9hdWcvMTkvd2hhdC1ob3Blcy1kby15
+        b3UtaGF2ZS1mb3IteW91ci1uZmwtdGVhbS10aGlzLXNlYXNvbiIsImFwaVVy
+        bCI6Imh0dHBzOi8vY29udGVudC5ndWFyZGlhbmFwaXMuY29tL3Nwb3J0LzIw
+        MTYvYXVnLzE5L3doYXQtaG9wZXMtZG8teW91LWhhdmUtZm9yLXlvdXItbmZs
+        LXRlYW0tdGhpcy1zZWFzb24iLCJpc0hvc3RlZCI6ZmFsc2V9LHsiaWQiOiJ1
+        cy1uZXdzLzIwMTYvYXVnLzE5L3Vzb2MtYXBvbG9neS1sb2NodGUtc3dpbW1l
+        cnMiLCJ0eXBlIjoiYXJ0aWNsZSIsInNlY3Rpb25JZCI6InVzLW5ld3MiLCJz
+        ZWN0aW9uTmFtZSI6IlVTIG5ld3MiLCJ3ZWJQdWJsaWNhdGlvbkRhdGUiOiIy
+        MDE2LTA4LTE5VDExOjQ4OjA5WiIsIndlYlRpdGxlIjoiQXBvbG9neSBpc3N1
+        ZWQgZm9yIFVTIHN3aW1tZXJzJyBiZWhhdmlvciBpbiBSaW8gfCBUaGUgZGFp
+        bHkgYnJpZWZpbmciLCJ3ZWJVcmwiOiJodHRwczovL3d3dy50aGVndWFyZGlh
+        bi5jb20vdXMtbmV3cy8yMDE2L2F1Zy8xOS91c29jLWFwb2xvZ3ktbG9jaHRl
+        LXN3aW1tZXJzIiwiYXBpVXJsIjoiaHR0cHM6Ly9jb250ZW50Lmd1YXJkaWFu
+        YXBpcy5jb20vdXMtbmV3cy8yMDE2L2F1Zy8xOS91c29jLWFwb2xvZ3ktbG9j
+        aHRlLXN3aW1tZXJzIiwiaXNIb3N0ZWQiOmZhbHNlfSx7ImlkIjoiZm9vdGJh
+        bGwvMjAxNi9hdWcvMTkvbWxzLXByZXZpZXctbGEtZ2FsYXh5LXJvYmJpZS1r
+        ZWFuZSIsInR5cGUiOiJhcnRpY2xlIiwic2VjdGlvbklkIjoiZm9vdGJhbGwi
+        LCJzZWN0aW9uTmFtZSI6IkZvb3RiYWxsIiwid2ViUHVibGljYXRpb25EYXRl
+        IjoiMjAxNi0wOC0xOVQxMDowMDoxNVoiLCJ3ZWJUaXRsZSI6Ik1MUyBwcmV2
+        aWV3OiBMQSBHYWxheHkgYXJlIGxpdmluZyBpbiBhIFJvYmJpZSBLZWFuZSB3
+        b3JsZCIsIndlYlVybCI6Imh0dHBzOi8vd3d3LnRoZWd1YXJkaWFuLmNvbS9m
+        b290YmFsbC8yMDE2L2F1Zy8xOS9tbHMtcHJldmlldy1sYS1nYWxheHktcm9i
+        YmllLWtlYW5lIiwiYXBpVXJsIjoiaHR0cHM6Ly9jb250ZW50Lmd1YXJkaWFu
+        YXBpcy5jb20vZm9vdGJhbGwvMjAxNi9hdWcvMTkvbWxzLXByZXZpZXctbGEt
+        Z2FsYXh5LXJvYmJpZS1rZWFuZSIsImlzSG9zdGVkIjpmYWxzZX1dfX0=
+    http_version: 
+  recorded_at: Mon, 22 Aug 2016 23:18:12 GMT
+recorded_with: VCR 3.0.3
