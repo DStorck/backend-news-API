@@ -31,7 +31,45 @@ following parameters:
 | `topic`     | string    | Section of newspaper to search. Endpoints can be found on Guardian API website. |
 | `page`      | integer   | Page of data returned. First response is page 1 by default. |
 
+###Example Request and Reponse
+### Simple search query
+Request URL:
 
+GET:
+```
+/soccer
+```
+
+Response data:
+
+```json
+[
+  {
+  "id": 2412,
+  "title": "Seattle and USA striker Clint Dempsey sidelined with irregular heartbeat",
+  "url": "https://www.theguardian.com/football/2016/aug/26/clint-dempsey-seattle-usa-sidelined-world-cup-mls-irregular-heartbeat",
+  "created_at": "2016-08-26T22:03:01.454Z",
+  "updated_at": "2016-08-26T22:03:01.454Z",
+  "guardian_id": "football/2016/aug/26/clint-dempsey-seattle-usa-sidelined-world-cup-mls-irregular-heartbeat"
+  },
+  {
+  "id": 2413,
+  "title": "A strict diet of pie in the sky",
+  "url": "https://www.theguardian.com/football/2016/aug/26/a-strict-diet-of-pie-in-the-sky",
+  "created_at": "2016-08-26T22:03:01.458Z",
+  "updated_at": "2016-08-26T22:03:01.458Z",
+  "guardian_id": "football/2016/aug/26/a-strict-diet-of-pie-in-the-sky"
+  },
+  {
+  "id": 2414,
+  "title": "Hope Solo's punishment shows that women are judged more harshly | Shireen Ahmed",
+  "url": "https://www.theguardian.com/football/2016/aug/26/hope-solo-suspension-female-athletes-double-standards",
+  "created_at": "2016-08-26T22:03:01.461Z",
+  "updated_at": "2016-08-26T22:03:01.461Z",
+  "guardian_id": "football/2016/aug/26/hope-solo-suspension-female-athletes-double-standards"
+  }
+]
+```
 
 
 
