@@ -10,7 +10,7 @@ Currently using [Guardian API](http://open-platform.theguardian.com/) to gather 
 1. `git clone git@github.com:DStorck/backend-news-API.git`
 2. `cd backend-news-API`
 3. `bundle install`
-4. get Guardian API key and put in .env as GUARDIAN_API_KEY
+4. Get Guardian API key and put in .env as GUARDIAN_API_KEY
 
 
 ## Search by keyword
