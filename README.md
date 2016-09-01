@@ -13,23 +13,19 @@ Currently using [Guardian API](http://open-platform.theguardian.com/) to gather 
 4. get Guardian API key and put in .env as GUARDIAN_API_KEY
 
 
-## Search by keyword
-Search requests are GET requests to the `/:keyword/:page` endpoint with the
-following parameters(:page is optional):
+## Search by keyword  - GET request to `/:keyword/:page`
 
 | parameter   | data type | description |
 |-------------|----------:|-------------|
 | `keyword`   | string    | Search by keyword |
-| `page`      | integer   | Page of data returned. First response is page 1 by default. |
+| `page`      | integer   | (Optional) page of data returned. First response is page 1 by default. |
 
-## Search by section
-Section requests are GET requests to the `/section/:topic/:page` endpoint with the
-following parameters(:page is optional):
+## Search by section - GET request to `/section/:topic/:page`
 
 | parameter   | data type | description |
 |-------------|----------:|-------------|
 | `topic`     | string    | Section of newspaper to search. Endpoints can be found on Guardian API website. |
-| `page`      | integer   | Page of data returned. First response is page 1 by default. |
+| `page`      | integer   | (Optional) page of data returned. First response is page 1 by default. |
 
 ###Example Request and Reponse
 ### Simple search query
